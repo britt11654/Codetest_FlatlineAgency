@@ -1,0 +1,123 @@
+* {
+    font-family: 'Barlow Condensed', sans-serif;
+    margin: 10px;
+}
+
+header {
+    display: flex;
+    flex-direction: row;
+    margin: 0;
+    justify-content: space-between;
+}
+
+header h2 {
+    display: inline-block;
+    font-weight: 400;
+    font-size: 1rem;
+}
+
+header img {
+    margin: 0;
+    width: 15px;
+    height: 15px;
+}
+
+.nearestcar {
+    background-color: #F3F3F3;
+    border-radius: 1rem;
+}
+
+.nearestcar h2,
+.nearestcar h3 {
+    color: #787878;
+    font-variant: small-caps;
+    font-weight: 100;
+    font-size: 1rem;
+}
+
+#imagecar {
+    width: 285px;
+    height: 119px;
+}
+
+#cost {
+    font-weight: 300;
+}
+
+.personandmap {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+.person {
+    display: flex;
+    background-color: #F3F3F3;
+    border-radius: 1rem;
+    flex-direction: column;
+    width: 151px;
+    height: 170px;
+}
+
+.person h3 {
+    font-weight: 300;
+    font-size: 1rem;
+    text-align: center;
+}
+
+#map {
+    display: flex;
+    border-radius: 1rem;
+    width: 151px;
+    height: 170px;
+}
+
+.morecars {
+    display: flex;
+    background-color: #282931;
+    border-radius: 1rem;
+    flex-direction: column;
+}
+
+.headermorecars {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.morecars h2 {
+    color: #FFFFFF;
+    font-size: 1rem
+}
+
+.morecars h3 {
+    color: #D8D8D8;
+    font-weight: 100;
+}
+
+.dot {
+    width: 35px;
+    height: 35px;
+    background-color: #FFFFFF;
+    border-radius: 50%;
+    align-self: flex-end;
+}
+
+.corolla {
+    border-bottom: 1px #4B4B4B solid;
+}
+
+.corolla,
+.ionic {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.distance {
+    display: flex;
+    font-size: 0.8rem;
+    flex-direction: row;
+}
